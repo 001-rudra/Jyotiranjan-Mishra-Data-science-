@@ -84,9 +84,9 @@ My mission is to continuously learn and grow in:
 
 ## 🤝 Connect With Me
 
-- GitHub: [001-rudra](https://github.com/001-rudra)
-- LinkedIn: *(Add your LinkedIn link here)*  
-- Email: *(Add your email here)*
+- GitHub: [jyotiranjanmishra915-lab](https://github.com/jyotiranjanmishra915-lab)
+- LinkedIn: [Jyotiranjan Mishra](https://www.linkedin.com/in/jyotiranjan-mishra-07815a3ab?utm_source=share_via&utm_content=profile&utm_medium=member_android) 
+- Email: *(jyotiranjanmishra915@gmail.com)*
 
 ## ⭐ Support
 
