@@ -1,0 +1,58 @@
+.hover-split-text {
+  display: inline-block;
+}
+
+.hover-split-word {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+  padding-bottom: 0.2em;
+  margin-bottom: -0.2em;
+}
+
+.hover-split-char {
+  display: inline-block;
+  transition: transform 0.33s ease-in-out;
+}
+
+.hover-split-before {
+  position: relative;
+  display: inline-flex;
+}
+
+.hover-split-before .hover-split-char {
+  transform: translateY(0);
+}
+
+.hover-split-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+}
+
+.hover-split-after .hover-split-char {
+  transform: translateY(-150%);
+}
+
+.hover-split-after .hover-split-char:nth-child(even) {
+  transform: translateY(150%);
+}
+
+.hover-split-word:hover .hover-split-before .hover-split-char {
+  transform: translateY(150%);
+}
+
+.hover-split-word:hover .hover-split-before .hover-split-char:nth-child(even) {
+  transform: translateY(-150%);
+}
+
+.hover-split-word:hover .hover-split-after .hover-split-char {
+  transform: translateY(0);
+}
+
+.char-g {
+  position: relative;
+  bottom: 0.4cm;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=Macondo&family=Teko:wght@500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-name: "Macondo", cursive;
+  --font-galgo: "Galgo Condensed", "Teko", sans-serif;
+  --font-neue: "Neue Metana Next", "Space Grotesk", sans-serif;
+  --font-harmond: "Playfair Display", serif;
+  
+  --color-primary: #f97316;
+  --color-accent: #fb923c;
+  --color-secondary: #94a3b8;
+}
+
+:root {
+  --color-background: #000000;
+  --color-foreground: #f8fafc;
+  --color-secondary: #94a3b8;
+  --color-muted: #1e293b;
+  --color-border: #334155;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+@layer base {
+  * {
+    cursor: none !important;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-secondary);
+    @apply font-sans antialiased selection:bg-primary/30 transition-colors duration-300 text-base md:text-lg leading-relaxed;
+  }
+  
+  h1, h2 {
+    @apply font-harmond tracking-tight text-white;
+  }
+
+  h3, h4, h5, h6 {
+    @apply font-display tracking-wide text-primary;
+  }
+
+  p {
+    @apply font-sans text-secondary;
+  }
+}
+
+.font-name {
+  font-family: var(--font-name);
+}
+
+.glass {
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600;
+}
+
+.section-padding {
+  @apply py-20 px-6 md:px-12 lg:px-24;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  box-shadow: 0 0 10px var(--color-primary), 0 0 20px var(--color-primary);
+  transition: width 0.2s ease, height 0.2s ease, border-radius 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+}
+
+.cursor-hover {
+  width: 25px;
+  height: 25px;
+  background-color: transparent !important;
+  border: 2px solid var(--color-primary);
+  mix-blend-mode: normal;
+  opacity: 1;
+  box-shadow: 0 0 15px var(--color-primary), inset 0 0 10px var(--color-primary);
+}
+
+.cursor-text {
+  width: 2px;
+  height: var(--cursor-height, 24px);
+  border-radius: 0;
+  background-color: var(--color-primary);
+  mix-blend-mode: normal;
+  transform: translateY(-25%);
+  box-shadow: none;
+}
+
+.liquid-glass-nav {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.liquid-glass-nav:hover {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.liquid-glass-btn {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--color-foreground);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.liquid-glass-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.liquid-glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.liquid-glass-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  border-color: var(--color-primary);
+}
+
+.parallax-effect {
+  transform-style: preserve-3d;
+}
+
+.parallax-effect .inner-element {
+  transform: translateZ(30px);
+  transform-style: preserve-3d;
+}
