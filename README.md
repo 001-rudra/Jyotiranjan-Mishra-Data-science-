@@ -2,8 +2,7 @@
 
 > 🌐 **Live Demo:** [Click Here](https://jyotiranjan.vercel.app)
 > 
-> 'Prefer to watch the demo in smart phone or in tablet.
-> The current desktop version is not working properly.'
+> 'If possible, I would prefer to watch the demo on a smartphone or tablet, as the current desktop version is not working properly'
 
 Welcome to my Data Science Portfolio repository!  
 This repository showcases my projects, skills, and learning journey in the field of **Data Science, Machine Learning, and Analytics**.
