@@ -1,7 +1,7 @@
-# 🚀 Jyotiranjan Mishra - Data Science Portfolio
+Pi # 🚀 Jyotiranjan Mishra - Data Science Portfolio
 
 > 🌐 **Live Demo:** Once deployed on Vercel, paste your Vercel link here to visualize the project.  
-> Example: `(https://jyotiranjan.vercel.app)`
+> Example: (https://jyotiranjan.vercel.app)
 
 Welcome to my Data Science Portfolio repository!  
 This repository showcases my projects, skills, and learning journey in the field of **Data Science, Machine Learning, and Analytics**.
