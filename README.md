@@ -1,4 +1,4 @@
-Pi # 🚀 Jyotiranjan Mishra - Data Science Portfolio
+# 🚀 Jyotiranjan Mishra - Data Science Portfolio
 
 > 🌐 **Live Demo:** [Click Here](https://jyotiranjan.vercel.app)
 > 
@@ -70,7 +70,7 @@ Built predictive models using supervised learning algorithms.
 ### 3. Dashboard Project
 Created interactive dashboards for business insights.
 
-> *(Update this section with your actual projects)*
+> 
 
 ## 📈 Goals
 
