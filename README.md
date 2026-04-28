@@ -1,8 +1,9 @@
 Pi # 🚀 Jyotiranjan Mishra - Data Science Portfolio
 
 > 🌐 **Live Demo:** [Click Here](https://jyotiranjan.vercel.app)
-> 'Prefer to use in smart phone or in tablet.'
-> 'The desktop version is not working properly.'
+> 
+> 'Prefer to use in smart phone or in tablet.
+> The desktop version is not working properly.'
 
 Welcome to my Data Science Portfolio repository!  
 This repository showcases my projects, skills, and learning journey in the field of **Data Science, Machine Learning, and Analytics**.
