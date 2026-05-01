@@ -1,1 +1,1 @@
-This folder contains public assets.
+This folder contains picturial assets.
