@@ -16,7 +16,7 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      // Do not modify file watching is disabled to prevent flickering during agent edits.
       
       hmr: process.env.DISABLE_HMR !== 'true',
     },
