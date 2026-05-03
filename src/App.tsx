@@ -51,7 +51,6 @@ const CustomCursor = () => {
   const mouseY = useMotionValue(-100);
   
   // Use direct motion values for position to eliminate any perceived lag
-  // The user specifically requested it follow the mouse "as it is"
   
   const [cursorType, setCursorType] = useState<'default' | 'hover' | 'text'>('default');
   const [cursorHeight, setCursorHeight] = useState(24);
